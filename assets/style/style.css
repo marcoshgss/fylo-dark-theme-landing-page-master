@@ -60,6 +60,25 @@ header {
     display: none;
 }
 
+.primeira-section {
+    background-color: hsl(219, 30%, 18%);
+    width: 100%;
+    margin: auto; 
+    padding: 1.5rem 6rem;
+    height: 37rem;
+}
+
+.container .img {
+    display: flex;
+    justify-content: center;
+}
+
+.imagem-ilustracao {
+    height: 25rem;
+}
+
+
+
 /*PARTE DA RESPONSIVIDADE*/
 @media screen and (max-width: 375px) {
     .nav-bar {
