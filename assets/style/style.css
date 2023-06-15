@@ -82,7 +82,8 @@ header {
     width: 100%;
     margin: auto; 
     padding: 1.5rem 6rem;
-    height: 29rem;
+    height: 28rem;
+    background-image: url(/images/bg-curvy-desktop.svg);
 }
 
 .text1 {
@@ -108,11 +109,48 @@ header {
     box-sizing: border-box;
     border-radius: 18px;
     margin-top: 2rem;
-   
 }
 
 .container {
-    text-align:center
+    text-align:center;
+}
+
+.terceira-section {
+    background-color: hsl(218, 28%, 13%);
+    width: 100%;
+    margin: auto; 
+    padding: 1.5rem 6rem;
+    height: 31rem;
+}
+
+.terceira-section .container {
+    display: flex;
+    justify-content:space-between;
+} 
+
+.container .img-left {
+    display: flex;
+    justify-content:left;
+}
+
+.box-left {
+    height: 25rem;
+}
+
+.box-right h1 {
+    font-size: 2rem;
+    color: hsl(0, 0%, 100%);
+   
+    text-align:left;
+}
+
+.box-right p {
+    text-align:left
+}
+
+.container .box-right {
+    margin-top: 7rem;
+    margin-left: 3rem;
 }
 
 /*PARTE DA RESPONSIVIDADE*/
