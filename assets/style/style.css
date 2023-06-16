@@ -134,24 +134,39 @@ header {
 }
 
 .box-left {
-    height: 25rem;
+    min-height: 30rem;
 }
 
 .box-right h1 {
     font-size: 2rem;
     color: hsl(0, 0%, 100%);
-   
     text-align:left;
 }
 
 .box-right p {
-    text-align:left
+    text-align:left;
+    color: hsl(0, 0%, 100%);
+    margin-top: 2rem;
+}
+
+.box-right a {
+    margin-top: 1rem;
+    color: aqua;
+    height: 2rem;
+    display:flex;
+}
+
+.box-right .the-link {
+    margin-right: 1rem;
 }
 
 .container .box-right {
     margin-top: 7rem;
     margin-left: 3rem;
 }
+
+
+
 
 /*PARTE DA RESPONSIVIDADE*/
 @media screen and (max-width: 375px) {
