@@ -132,6 +132,11 @@ header {
     display: flex;
     justify-content:left;
 }
+/*
+.img-left {
+    width: 10rem;
+} */
+
 
 .box-left {
     min-height: 30rem;
@@ -149,15 +154,20 @@ header {
     margin-top: 2rem;
 }
 
-.box-right a {
-    margin-top: 1rem;
-    color: aqua;
-    height: 2rem;
-    display:flex;
+.container .box-link {
+    display: flex;
+    align-items:center;
+    margin-top: 2rem;
 }
 
-.box-right .the-link {
-    margin-right: 1rem;
+.box-link img {
+    margin-left: 0.5rem;
+}
+
+.box-link a {
+    color:hsl(176, 68%, 64%);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(176, 68%, 64%);
 }
 
 .container .box-right {
