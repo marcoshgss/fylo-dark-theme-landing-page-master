@@ -124,6 +124,24 @@ header {
 }
 
 .terceira-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 25px
+}
+
+.cards {
+    
+}
+
+.quarta-section {
+    background-color: hsl(218, 28%, 13%);
+    width: 100%;
+    margin: auto; 
+    padding: 1.5rem 6rem;
+    height: 31rem;
+}
+
+.quarta-section .container {
     display: flex;
     justify-content:space-between;
 } 
@@ -136,8 +154,6 @@ header {
 .img-left {
     width: 10rem;
 } */
-
-
 .box-left {
     min-height: 30rem;
 }
