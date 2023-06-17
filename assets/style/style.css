@@ -103,6 +103,7 @@ header {
 .container .button-section2 {
     background-color: hsl(176, 68%, 64%);
     color: white;
+    cursor: pointer;
     border: 10px; 
     width: 19%;
     height: 45px;
@@ -120,17 +121,64 @@ header {
     width: 100%;
     margin: auto; 
     padding: 1.5rem 6rem;
-    height: 31rem;
+    height: 35rem;
 }
 
 .terceira-section .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
     grid-gap: 25px
 }
 
 .cards {
-    
+    background-color: hsl(218, 28%, 13%);
+}
+
+.imagem-section {
+    height: 85px;
+}
+
+.cards .img-1 {
+    background-image: url(/images/icon-access-anywhere.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-2 {
+    background-image: url(/images/icon-security.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-3 {
+    background-image: url(/images/icon-collaboration.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards .img-4 {
+    background-image: url(/images/icon-any-file.svg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.conteudo {
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.conteudo h3 {
+    color: hsl(0, 0%, 100%);
+}
+
+.conteudo p {
+    margin: 10px 0px;
+    font-size: 14px;
+    color: hsl(0, 0%, 100%);
 }
 
 .quarta-section {
@@ -150,10 +198,7 @@ header {
     display: flex;
     justify-content:left;
 }
-/*
-.img-left {
-    width: 10rem;
-} */
+
 .box-left {
     min-height: 30rem;
 }
