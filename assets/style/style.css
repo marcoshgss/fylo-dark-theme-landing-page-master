@@ -126,7 +126,7 @@ header {
 
 .terceira-section .container {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr)); /**/
     grid-gap: 25px
 }
 
@@ -236,9 +236,67 @@ header {
     margin-left: 3rem;
 }
 
+.quinta-section {
+    background-color: hsl(218, 28%, 13%);
+    width: 100%;
+    margin: auto; 
+    padding: 1.5rem 6rem;
+    height: 31rem;
+}
 
+.quinta-section .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(375px, 1fr));
+    grid-gap: 16px;
+    margin-top: 8rem;
+}
 
+.cards-perfis {
+    box-shadow: 8px 5px 5px hsl(217, 28%, 15%);
+    background-color: hsl(219, 30%, 18%);
+    height: 12rem;
+}
 
+.imagem-back-section {
+    height: 40px;   
+}
+
+.quinta-section .img-back {
+    background-image: url(/images/bg-quotes.png);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.imagem-section-perfil {
+    height: 40px;
+}
+
+.cards-perfis .img-1 {
+    background-image: url(/images/profile-1.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards-perfis .img-2 {
+    background-image: url(/images/profile-2.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.cards-perfis .img-3 {
+    background-image: url(/images/profile-3.jpg);
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.text-perfil {
+    text-align: left;
+    
+}
 /*PARTE DA RESPONSIVIDADE*/
 @media screen and (max-width: 375px) {
     .nav-bar {
