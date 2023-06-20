@@ -331,7 +331,7 @@ footer {
 
 /* Mobile 375px */
 
-@media (max-width: 375px) {
+ @media screen and (max-width: 730px) {
   html {
     font-size: 10px;
   }
